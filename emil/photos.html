@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>eResto | Pizza Hut Ciwalk | Photos</title>
+		<meta charset="UTF-8" />
+
+		<!-- css -->
+		<link href="css/reset.css" media="screen" rel="stylesheet">
+		<link href="css/main.css" media="screen" rel="stylesheet">
+
+		<!-- css for photo slider -->
+		<link href="css/style.css" media="screen" rel="stylesheet">
+		<link href="css/elastislide.css" media="screen" rel="stylesheet">
+
+		<!-- script for photo slider -->
+		<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+	</head>
+	<body>
+
+		<div id="headerContainer">
+			<div class="centerContainer">
+				<a href="home.html" class="logoTopSmall fl" title="eResto">
+					<img alt="eResto logo" src="img/eResto-header-icon.png">
+				</a>
+				<div id="searchContainer">
+				</div>
+			</div>
+		</div>
+
+		<div id="secondHeader">
+			<div class="centerContainer">
+				<div>
+					<div id="secondHeaderInfo" class="fl">
+						<h1>The Valley</h1>
+						<h2>+6222 2531052</h2>
+						<h3>Jl. Lembah Pakar Timur No. 28 Dago Pakar, Bandung 40119</h3>
+						<a href="http://www.thevalleybandung.com/">www.thevalleybandung.com</a>
+					</div>
+					<div class="avatarContainer fl">
+						<img alt="eResto logo" src="img/avatar1.jpg">
+					</div>
+					<span class="clear"></span>
+				</div>
+				<div id="mainNavi">
+					<ul class="menu" rel="sam1">  
+						<li><a href="overview.html">Overview</a></li>  
+						<li><a href="menu.html">Menu</a></li>  
+						<li class="active"><a href="photos.html">Photos</a></li>  
+						<li><a href="events.html">Events&Promo</a></li>  
+						<li><a href="about.html">About</a></li>  
+					</ul>  
+				</div>
+			</div>
+		</div>
+
+		<div class="centerContainer">
+			<div id="mainContainer">
+				<div id="leftContainer" class="fl">
+					<div class="mainContents">
+						<div id="rg-gallery" class="rg-gallery">
+							<div class="rg-thumbs">
+								<!-- Elastislide Carousel Thumbnail Viewer -->
+								<div class="es-carousel-wrapper">
+									<div class="es-nav">
+										<span class="es-nav-prev">Previous</span>
+										<span class="es-nav-next">Next</span>
+									</div>
+									<div class="es-carousel">
+										<ul>
+											<li><a href="#"><img src="img/thumbs/1.jpg" data-large="img/1.jpg" alt="image01" data-description="From off a hill whose concave womb reworded" /></a></li>
+											<li><a href="#"><img src="img/thumbs/2.jpg" data-large="img/2.jpg" alt="image02" data-description="A plaintful story from a sistering vale" /></a></li>
+											<li><a href="#"><img src="img/thumbs/3.jpg" data-large="img/3.jpg" alt="image03" data-description="A plaintful story from a sistering vale" /></a></li>
+											<li><a href="#"><img src="img/thumbs/4.jpg" data-large="img/4.jpg" alt="image04" data-description="My spirits to attend this double voice accorded" /></a></li>
+											<li><a href="#"><img src="img/thumbs/5.jpg" data-large="img/5.jpg" alt="image05" data-description="And down I laid to list the sad-tuned tale" /></a></li>
+											<li><a href="#"><img src="img/thumbs/6.jpg" data-large="img/6.jpg" alt="image06" data-description="Ere long espied a fickle maid full pale" /></a></li>
+											
+										</ul>
+									</div>
+								</div>
+								<!-- End Elastislide Carousel Thumbnail Viewer -->
+							</div><!-- rg-thumbs -->
+						</div><!-- rg-gallery -->
+						
+					</div>
+				</div>
+				<div id="rightContainer" class="fr">
+					<div class="rightItem">
+						<p class="rightItemTitle">Location</p>
+						<img src="img/location_pizzahut.jpg">
+					</div>
+					<div class="rightItem">
+						<p class="rightItemTitle">Price Range</p>
+						<ul>
+							<li>
+								<ul>
+									<li>Food</li>
+									<li>Rp 35.000 - Rp 80.000</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li>Beverages</li>
+									<li>Rp 20.000 - Rp 45.000</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="rightItem">
+						<p class="rightItemTitle">Facilities</p>
+						<table>
+							<tr>
+								<td width="110">delivery</td>
+								<td width="110">drive thru</td>
+							</tr>
+							<tr>
+								<td width="110">smoking</td>
+								<td width="110">convention room</td>
+							</tr>
+							<tr>
+								<td width="110">wifi access</td>
+								<td width="110">24 hours</td>
+							</tr>
+							<tr>
+								<td width="110">reservation</td>
+								<td width="110">take away</td>
+							</tr>
+						</table>
+					</div>
+					<div class="rightItem">
+						<p class="rightItemTitle">Similar Places</p>
+						<ul>
+							<li>
+								<ul>
+									<li><a href="#">Domino Pizza (buah batu)</a></li>
+									<li>Jalan Buah batu No.12</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="#">Paparonz Pizza (padjajaran)</a></li>
+									<li>Jalan Padjajaran No.36</li>
+								</ul>
+							</li>
+							<li>
+								<ul>
+									<li><a href="#">Pizza Rakyat (padjajaran)</a></li>
+									<li>Jalan Sukapura No.36</li>
+								</ul>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+				<span class="clears"></span>
+			</div>
+		</div>
+		<div id="footerContainer">
+			<div class="centerContainer">
+				<div class="footerInner">
+					<ul class="nav">
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">BROWSE BY CITY</a></li>
+						<li><a href="#">FEATURED PLACES</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+					<p>newbee.corp @2012 | Privacy Policy</p>
+				</div>
+			</div>
+		</div>
+	<!-- script for photo slider -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.elastislide.js"></script>
+	<script type="text/javascript" src="js/gallery.js"></script>
+	</body>
+</html>
